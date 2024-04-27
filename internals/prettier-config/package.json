@@ -1,0 +1,19 @@
+{
+  "name": "@zkj/prettier-config",
+  "version": "1.0.0",
+  "private": true,
+  "description": "🚀 prettier-config 是一个专门针对 Prettier 代码格式化工具设计的共享配置包，旨在为开发团队提供一致且易于管理的代码格式化标准。",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "clean": "run-p clean:**",
+    "clean:cache": "rimraf dist",
+    "clean:deps": "rimraf node_modules"
+  },
+  "dependencies": {
+    "prettier": "^2.7.1"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}

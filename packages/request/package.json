@@ -1,0 +1,40 @@
+{
+  "name": "@zkj/request",
+  "version": "1.0.0",
+  "description": "🚀 The package offer request for @zkj!",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "dev": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    },
+    "./*": "./*"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": "father build",
+    "lint": "run-s lint:**",
+    "lint:eslint": "TIMING=1 eslint \"*.{js,jsx,ts,tsx,md,json}\" --fix",
+    "lint:prettier": "prettier --write \"*.{js,ts,jsx,tsx,md,json}\"",
+    "clean": "run-p clean:**",
+    "clean:cache": "rimraf .turbo && rimraf dist",
+    "clean:deps": "rimraf node_modules"
+  },
+  "devDependencies": {
+    "@types/qs": "6.9.13"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {
+    "@zkj/utils": "workspace:*",
+    "axios": "1.6.8",
+    "axios-retry": "4.0.0",
+    "qs": "6.12.0"
+  }
+}

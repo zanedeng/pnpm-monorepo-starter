@@ -1,0 +1,10 @@
+{
+  "display": "TSConfig Vite Module",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "types": [
+      "node",
+      "vitest"
+    ]
+  }
+}

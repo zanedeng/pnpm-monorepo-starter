@@ -1,0 +1,19 @@
+{
+  "name": "@zkj/ts-config",
+  "version": "0.0.0",
+  "private": true,
+  "description": "🚀 @zkj/ts-config 是专门为 TypeScript 项目打造的一套预设配置包，旨在简化 TypeScript 编译器配置流程，为开发团队提供统一、严谨且易于维护的 TypeScript 项目配置方案。",
+  "license": "MIT",
+  "files": [
+    "base.json",
+    "docs.json",
+    "node.common.json",
+    "node.module.json",
+    "vite.json",
+    "vitest.json",
+    "web.json"
+  ],
+  "engines": {
+    "node": ">=16"
+  }
+}

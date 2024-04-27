@@ -1,0 +1,19 @@
+{
+  "name": "@zkj/simple-git-hooks-config",
+  "version": "0.0.0",
+  "private": true,
+  "description": "🚀 simple-git-hooks-config 是一个为 simple-git-hooks 库提供的预设配置包，致力于简化 Git 钩子的设置与管理过程。",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "clean": "run-p clean:**",
+    "clean:cache": "rimraf dist",
+    "clean:deps": "rimraf node_modules"
+  },
+  "dependencies": {
+    "simple-git-hooks": "^2.8.1"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}

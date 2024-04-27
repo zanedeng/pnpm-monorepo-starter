@@ -1,0 +1,43 @@
+{
+  "name": "@zkj/utils",
+  "version": "1.0.0",
+  "description": "🚀 The package offer utils for @zkj!",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "dev": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    },
+    "./*": "./*"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": "father build",
+    "lint": "run-s lint:**",
+    "lint:eslint": "TIMING=1 eslint \"*.{js,jsx,ts,tsx,md,json}\" --fix",
+    "lint:prettier": "prettier --write \"*.{js,ts,jsx,tsx,md,json}\"",
+    "clean": "run-p clean:**",
+    "clean:cache": "rimraf .turbo && rimraf dist",
+    "clean:deps": "rimraf node_modules"
+  },
+  "dependencies": {
+    "@types/crypto-js": "4.2.1",
+    "crypto-js": "4.2.0",
+    "dayjs": "1.11.10",
+    "lodash-es": "4.17.21",
+    "resize-observer-polyfill": "1.5.1",
+    "sortablejs": "1.15.2"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "4.17.12",
+    "@types/sortablejs": "1.15.8"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "display": "TSConfig Vitest Module",
+  "extends": "./web.json",
+  "compilerOptions": {
+    "types": [
+      "node",
+      "jsdom",
+      "vitest/globals"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "@zkj/commitlint-config",
+  "version": "1.0.0",
+  "private": true,
+  "description": "🚀 commitlint-config 是一个用于配合 commitlint 工具定制 Git 提交消息格式规则的配置包。",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "clean": "run-p clean:**",
+    "clean:cache": "rimraf dist",
+    "clean:deps": "rimraf node_modules"
+  },
+  "dependencies": {
+    "@commitlint/cli": "17.2.0",
+    "@commitlint/config-conventional": "17.2.0",
+    "@types/node": "*",
+    "czg": "^1.3.12"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}

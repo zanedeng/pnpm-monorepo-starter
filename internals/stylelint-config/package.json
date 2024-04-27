@@ -1,0 +1,34 @@
+{
+  "name": "@zkj/stylelint-config",
+  "version": "1.0.0",
+  "private": true,
+  "description": "🚀 @zkj/stylelint-config 是一个为 Stylelint CSS 代码检测工具定制的共享配置包，旨在为开发团队提供统一、严谨且易于维护的 CSS/Sass/Less 等样式表代码规范。",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "clean": "run-p clean:**",
+    "clean:cache": "rimraf dist",
+    "clean:deps": "rimraf node_modules"
+  },
+  "peerDependencies": {
+    "stylelint": "^14.13.0"
+  },
+  "dependencies": {
+    "postcss": "^8.4.18",
+    "postcss-html": "^1.5.0",
+    "postcss-scss": "4.0.5",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-recommended": "^9.0.0",
+    "stylelint-config-recommended-scss": "8.0.0",
+    "stylelint-config-recommended-vue": "^1.4.0",
+    "stylelint-config-standard": "^29.0.0",
+    "stylelint-config-standard-scss": "6.1.0",
+    "stylelint-order": "^5.0.0"
+  },
+  "devDependencies": {
+    "stylelint": "^14.14.1"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}

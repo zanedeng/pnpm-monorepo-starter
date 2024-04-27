@@ -1,0 +1,19 @@
+{
+  "name": "@zkj/lint-staged-config",
+  "version": "1.0.0",
+  "private": true,
+  "description": "🚀 lint-staged-config 是一套专门针对 lint-staged 工具提供的预设配置包，旨在简化代码提交前的自动化代码审查流程。",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "clean": "run-p clean:**",
+    "clean:cache": "rimraf dist",
+    "clean:deps": "rimraf node_modules"
+  },
+  "dependencies": {
+    "lint-staged": "^13.0.3"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}

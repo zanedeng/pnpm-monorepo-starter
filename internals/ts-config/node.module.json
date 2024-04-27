@@ -1,0 +1,9 @@
+{
+  "display": "TSConfig Node Module",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "types": [
+      "node"
+    ]
+  }
+}

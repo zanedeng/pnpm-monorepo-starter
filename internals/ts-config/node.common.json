@@ -1,0 +1,10 @@
+{
+  "display": "TSConfig Node Common",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "types": [
+      "node"
+    ]
+  }
+}
