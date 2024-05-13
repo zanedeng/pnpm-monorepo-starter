@@ -1,0 +1,50 @@
+{
+  "name": "@zkj/vue3router",
+  "version": "0.1.0",
+  "description": "🚀 @zkj/vue3router 是专为 @zkj 生态系统设计的 Vue 3 路由库，旨在提供一套功能丰富、易用且高度集成的路由解决方案，以增强 Vue 3 应用的导航和页面管理能力。",
+  "license": "MIT",
+  "main": "./dist/cjs/index.cjs",
+  "module": "./dist/es/index.mjs",
+  "exports": {
+    ".": {
+      "dev": "./src/index.ts",
+      "types": "./dist/es/index.mjs.d.ts",
+      "require": "./dist/cjs/index.cjs",
+      "import": "./dist/es/index.mjs"
+    },
+    "./umd": "./dist/umd/",
+    "./es": "./dist/es/index.mjs",
+    "./es/*": "./dist/es/*.mjs",
+    "./es/*.mjs": "./dist/es/*.mjs",
+    "./cjs": "./dist/cjs/index.cjs",
+    "./cjs/*": "./dist/cjs/*.js",
+    "./cjs/*.cjs": "./dist/cjs/*.cjs",
+    "./*": "./dist/*"
+  },
+  "unpkg": "./dist/umd/index.umd.js",
+  "jsdelivr": "./dist/umd/index.umd.js",
+  "sideEffects": false,
+  "types": "./dist/es/index.d.ts",
+  "scripts": {
+    "build": "father build",
+    "lint": "run-s lint:**",
+    "lint:eslint": "TIMING=1 eslint \"*.{js,jsx,ts,tsx,md,json}\" --fix",
+    "lint:prettier": "prettier --write \"*.{js,ts,jsx,tsx,md,json}\"",
+    "clean": "run-p clean:**",
+    "clean:cache": "rimraf dist",
+    "clean:deps": "rimraf node_modules"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.41"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@zkj/utils": "workspace:*",
+    "@zkj/vue3types": "workspace:*",
+    "vue": "^3.2.41",
+    "vue-router": "4.3.0"
+  }
+}

@@ -22,14 +22,14 @@
     "lint:eslint": "TIMING=1 eslint \"*.{js,jsx,ts,tsx,md,json}\" --fix",
     "lint:prettier": "prettier --write \"*.{js,ts,jsx,tsx,md,json}\"",
     "clean": "run-p clean:**",
-    "clean:cache": "rimraf .turbo && rimraf dist",
+    "clean:cache": "rimraf dist",
     "clean:deps": "rimraf node_modules"
-  },
-  "devDependencies": {
-    "@types/qs": "6.9.13"
   },
   "engines": {
     "node": ">=16"
+  },
+  "devDependencies": {
+    "@types/qs": "6.9.13"
   },
   "dependencies": {
     "@zkj/utils": "workspace:*",

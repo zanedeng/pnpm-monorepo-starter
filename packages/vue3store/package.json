@@ -1,7 +1,7 @@
 {
-  "name": "@zkj/utils",
+  "name": "@zkj/vue3store",
   "version": "1.0.0",
-  "description": "🚀 The package offer utils for @zkj!",
+  "description": "🚀 @zkj/vue3store 是为 @zkj 生态打造的 Vue 3 专用状态管理库，它结合了 Vue 3 的最新特性和 Pinia 的强大功能，旨在提供高效、易用且类型安全的状态管理解决方案。",
   "license": "MIT",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -28,16 +28,14 @@
   "engines": {
     "node": ">=16"
   },
-  "devDependencies": {
-    "@types/lodash-es": "4.17.12",
-    "@types/sortablejs": "1.15.8"
+  "peerDependencies": {
+    "vue": "^3.2.41"
   },
+  "devDependencies": {},
   "dependencies": {
-    "@types/crypto-js": "4.2.1",
-    "crypto-js": "4.2.0",
-    "dayjs": "1.11.10",
-    "lodash-es": "4.17.21",
-    "resize-observer-polyfill": "1.5.1",
-    "sortablejs": "1.15.2"
+    "pinia": "^2.1.7",
+    "vue": "3.4.21",
+    "@zkj/utils": "workspace:*",
+    "pinia-plugin-persistedstate": "^3.2.1"
   }
 }

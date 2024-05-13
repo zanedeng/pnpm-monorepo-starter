@@ -1,7 +1,7 @@
 {
-  "name": "@zkj/utils",
-  "version": "1.0.0",
-  "description": "🚀 The package offer utils for @zkj!",
+  "name": "@zkj/vue3locale",
+  "version": "0.1.0",
+  "description": "🚀 The package offer vue3locale for @zkj!",
   "license": "MIT",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -28,16 +28,17 @@
   "engines": {
     "node": ">=16"
   },
-  "devDependencies": {
-    "@types/lodash-es": "4.17.12",
-    "@types/sortablejs": "1.15.8"
+  "peerDependencies": {
+    "vue": "^3.2.41"
   },
+  "devDependencies": {},
   "dependencies": {
-    "@types/crypto-js": "4.2.1",
-    "crypto-js": "4.2.0",
-    "dayjs": "1.11.10",
-    "lodash-es": "4.17.21",
-    "resize-observer-polyfill": "1.5.1",
-    "sortablejs": "1.15.2"
+    "@zkj/constants": "workspace:*",
+    "@zkj/utils": "workspace:*",
+    "@zkj/vue3hooks": "workspace:*",
+    "@zkj/vue3store": "workspace:*",
+    "@zkj/vue3types": "workspace:*",
+    "vue": "3.4.21",
+    "vue-i18n": "9.10.2"
   }
 }

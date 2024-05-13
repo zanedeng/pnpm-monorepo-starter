@@ -2,6 +2,9 @@
   "extends": "@zkj/ts-config/web.json",
   "compilerOptions": {
     "composite": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
       "/@/*": ["src/*"]
