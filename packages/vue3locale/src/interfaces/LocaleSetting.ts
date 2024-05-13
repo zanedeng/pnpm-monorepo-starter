@@ -1,4 +1,4 @@
-import type { LocaleType } from '../types/LocaleType'
+import type { LocaleType } from '/@/types/LocaleType'
 
 /**
  * @interface LocaleSetting

@@ -1,4 +1,4 @@
-import type { BasicAxiosRequestTransform } from '../core'
+import type { BasicAxiosRequestTransform } from '/@/axios/core'
 
 /**
  * @interface ContextOptions

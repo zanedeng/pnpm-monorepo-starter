@@ -1,8 +1,8 @@
 import { getCacheValue, setCacheValue } from '@zkj/utils'
 import { defineStore, store } from '@zkj/vue3store'
-import { LOCALE_KEY } from '../constants'
-import type { LocaleSetting } from '../interfaces'
-import type { LocaleType } from '../types'
+import { LOCALE_KEY } from '/@/constants'
+import type { LocaleSetting } from '/@/interfaces'
+import type { LocaleType } from '/@/types'
 
 const lsLocaleSetting = (getCacheValue(LOCALE_KEY) || {}) as LocaleSetting
 

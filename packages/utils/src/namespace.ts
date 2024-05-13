@@ -1,4 +1,4 @@
-import { camelize, capitalize } from './string'
+import { camelize, capitalize } from '/@/string'
 
 /**
  * 命名空间，通常为项目或库名称。

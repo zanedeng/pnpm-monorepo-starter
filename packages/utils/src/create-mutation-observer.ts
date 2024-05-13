@@ -1,6 +1,6 @@
-import { defaultWindow } from './configurable'
-import { isSupport } from './verify'
-import type { ConfigurableWindow } from './configurable'
+import { defaultWindow } from '/@/configurable'
+import { isSupport } from '/@/verify'
+import type { ConfigurableWindow } from '/@/configurable'
 
 /**
  * 定义UseMutationObserverOptions接口，扩展自MutationObserverInit接口和ConfigurableWindow接口

@@ -1,4 +1,4 @@
-import type { ViteEnv } from './ViteEnv'
+import type { ViteEnv } from '/@/ViteEnv'
 
 /**
  * 定义 ImportMetaEnv 接口

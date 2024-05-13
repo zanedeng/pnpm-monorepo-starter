@@ -1,8 +1,8 @@
 import { clone, deepMerge } from '@zkj/utils'
-import { context } from './../context'
-import { ContentTypeEnum } from '../enums'
+import { context } from '/@/axios/context'
+import { ContentTypeEnum } from '/@/axios/enums'
 import { AxiosRequest } from './AxiosRequest'
-import type { CreateAxiosRequestOptions } from '../interfaces'
+import type { CreateAxiosRequestOptions } from '/@/axios/interfaces'
 
 export * from './AxiosCanceler'
 export * from './AxiosRequest'

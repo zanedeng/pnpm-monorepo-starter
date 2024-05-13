@@ -1,5 +1,5 @@
-import { i18n } from '../core'
-import type { I18nGlobalTranslation } from '../interfaces'
+import { i18n } from '/@/core'
+import type { I18nGlobalTranslation } from '/@/interfaces'
 
 /**
  * 获取根据命名空间构建的完整翻译键名

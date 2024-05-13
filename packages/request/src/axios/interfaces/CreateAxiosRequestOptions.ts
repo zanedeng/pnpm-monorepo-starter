@@ -1,5 +1,5 @@
 import type { RequestOptions } from './RequestOptions'
-import type { BasicAxiosRequestTransform } from '../core/BasicAxiosRequestTransform'
+import type { BasicAxiosRequestTransform } from '/@/axios/core/BasicAxiosRequestTransform'
 import type { AxiosRequestConfig } from 'axios'
 
 /**

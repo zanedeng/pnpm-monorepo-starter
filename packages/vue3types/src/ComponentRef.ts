@@ -1,4 +1,4 @@
-import type { ComponentElRef } from './ComponentElRef'
+import type { ComponentElRef } from '/@/ComponentElRef'
 
 /**
  * 定义 ComponentRef 泛型类型

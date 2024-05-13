@@ -7,7 +7,7 @@ import type {
   CreateAxiosRequestOptions,
   RequestOptions,
   RequestResult,
-} from '../interfaces'
+} from '/@/axios/interfaces'
 
 /**
  * @abstract

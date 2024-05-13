@@ -1,14 +1,13 @@
 import { appendUrlParams, isFunction, isString } from '@zkj/utils'
 import { BasicAxiosRequestTransform } from './BasicAxiosRequestTransform'
-import { ResultEnum } from '../enums/ResultEnum'
-import { context } from '../context'
-import { checkStatus, formatRequestDate, joinTimestamp } from '../../utils'
-import { RequestEnum } from '../enums'
+import { RequestEnum, ResultEnum } from '/@/axios/enums'
+import { context } from '/@/axios/context'
+import { checkStatus, formatRequestDate, joinTimestamp } from '/@/utils'
 import type {
   CreateAxiosRequestOptions,
   RequestOptions,
   RequestResult,
-} from '../interfaces'
+} from '/@/axios/interfaces'
 import type {
   AxiosRequestConfig,
   AxiosResponse,

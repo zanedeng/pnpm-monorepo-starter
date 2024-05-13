@@ -1,4 +1,4 @@
-import type { Nullable } from './Nullable'
+import type { Nullable } from '/@/Nullable'
 
 /**
  * 定义 ElRef 泛型类型

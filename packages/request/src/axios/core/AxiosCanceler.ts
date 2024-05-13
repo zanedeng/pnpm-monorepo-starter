@@ -1,6 +1,6 @@
 import axios from 'axios'
 import { isFunction } from '@zkj/utils'
-import { getPendingUrl } from '../../utils/getPendingUrl'
+import { getPendingUrl } from '/@/utils/getPendingUrl'
 import type { AxiosRequestConfig, Canceler } from 'axios'
 
 // 创建一个用于存储待取消请求及其取消函数的映射表

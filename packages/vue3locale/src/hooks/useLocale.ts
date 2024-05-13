@@ -1,10 +1,10 @@
 import { ref, unref } from 'vue'
 import { getCacheValue, setCacheValue } from '@zkj/utils'
-import { LOCALE_KEY } from '../constants'
-import { getLangModule, i18n } from '../core/setupI18n'
-import { loadLocalePool, setHtmlPageLang } from '../utils'
-import type { LangModule } from '../interfaces'
-import type { LocaleType } from '../types'
+import { LOCALE_KEY } from '/@/constants'
+import { getLangModule, i18n } from '/@/core/setupI18n'
+import { loadLocalePool, setHtmlPageLang } from '/@/utils'
+import type { LangModule } from '/@/interfaces'
+import type { LocaleType } from '/@/types'
 
 const cacheLocaleInfo = getCacheValue(LOCALE_KEY) || {}
 

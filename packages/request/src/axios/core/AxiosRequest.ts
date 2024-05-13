@@ -3,8 +3,7 @@ import axiosRetry from 'axios-retry'
 import qs from 'qs'
 import { cloneDeep, isFunction } from '@zkj/utils'
 import { AxiosCanceler } from './AxiosCanceler'
-import { ContentTypeEnum } from '../enums/ContentTypeEnum'
-import { RequestEnum } from '../enums/RequestEnum'
+import { ContentTypeEnum, RequestEnum } from '/@/axios/enums'
 import type {
   AxiosError,
   AxiosInstance,
@@ -16,7 +15,7 @@ import type {
   CreateAxiosRequestOptions,
   RequestOptions,
   RequestResult,
-} from '../interfaces'
+} from '/@/axios/interfaces'
 
 /**
  * @class AxiosRequest

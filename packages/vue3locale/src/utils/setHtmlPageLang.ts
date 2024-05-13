@@ -1,4 +1,4 @@
-import type { LocaleType } from '../types'
+import type { LocaleType } from '/@/types'
 
 /**
  * @function setHtmlPageLang

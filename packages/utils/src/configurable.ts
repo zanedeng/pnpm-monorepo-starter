@@ -1,4 +1,4 @@
-import { isClient } from './verify'
+import { isClient } from '/@/verify'
 
 /**
  * @typedef {Object} ConfigurableWindow
