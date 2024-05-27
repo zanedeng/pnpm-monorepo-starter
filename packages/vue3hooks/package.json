@@ -1,7 +1,7 @@
 {
   "name": "@zkj/vue3hooks",
   "version": "0.1.0",
-  "description": "🚀 The package offer vue3hooks for @zkj!",
+  "description": "🚀 为 @zkj 生态系统精心打造的一套 Vue 3 钩用钩子库，旨在提升开发效率，增强 Vue 3 应用的功能性和易用性，提供一系列实用的预封装好的钩子来处理常见场景。",
   "license": "MIT",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

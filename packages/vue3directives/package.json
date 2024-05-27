@@ -1,7 +1,7 @@
 {
   "name": "@zkj/vue3directives",
   "version": "0.1.0",
-  "description": "🚀 The package offer vue3directives for @zkj!",
+  "description": "🚀 为 @zkj 生态定制的一套 Vue 3 指令集合，旨在丰富 Vue 3 应用的交互方式和 UI 功能，提高开发者的开发效率。此包提供了一系列预定义的自定义指令，可以直接在 Vue 3 应用中使用，无需从零编写逻辑。",
   "license": "MIT",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

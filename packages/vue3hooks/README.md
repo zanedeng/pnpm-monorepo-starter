@@ -1,7 +1,83 @@
-# @zkj/vue3types
+# @zkj/vue3hooks
 
-🚀 The package offer vue3types for @zkj!
+🚀 **@zkj/vue3hooks** 是为 @zkj 生态系统精心打造的一套 Vue 3 钩用钩子库，旨在提升开发效率，增强 Vue 3 应用的功能性和易用性，提供一系列实用的预封装好的钩子来处理常见场景。
 
-## Build
+## 特性与依赖说明
 
-Use tsup to build and this package don't have `devDependencies`. See [ts-up#excluding-packages](https://tsup.egoist.dev/#excluding-packages)
+### 核心依赖
+
+#### Vue.js
+
+- **版本**: 3.4.21
+- **作用**: Vue 3 是一个用于构建用户界面的渐进式框架，提供强大的组件系统和响应式数据绑定，是本库的基础。
+
+#### Vue Router
+
+- **版本**: 4.3.0
+- **作用**: Vue Router 是 Vue 官方的路由管理库，支持复杂的路由配置，用于构建单页面应用中的页面导航和路由切换。
+
+#### VueUse Core
+
+- **版本**: 10.9.0
+- **作用**: VueUse Core 是一组基于 Vue 3 的实用钩子库，提供状态管理、副作用、动画、DOM 交互等功能，本库以此为基础进行扩展。
+
+### 工作区依赖
+
+#### @zkj/constants
+
+- **作用**: 提供全局常量定义，便于维护和共享配置信息。
+
+#### @zkj/utils
+
+- **作用**: 实用工具函数集，可能包括数据处理、异步操作等，增强钩子功能。
+
+#### @zkj/vue3store
+
+- **作用**: 状态管理库，为钩子提供全局状态支持，实现状态逻辑解耦。
+
+#### @zkj/vue3types
+
+- **作用**: 提供 Vue 3 相关的 TypeScript 类型定义，保证类型安全。
+
+### 第三方依赖
+
+#### SortableJS
+
+- **版本**: 1.15.2
+- **作用**: 用于实现拖拽排序功能，使得列表等元素可交互性更强。
+
+#### Hotkeys-js
+
+- **版本**: 3.13.7
+- **作用**: 提供键盘事件处理，便于快捷键绑定，增加应用操作便捷性。
+
+### 开发与维护
+
+- **构建**: 使用 `npm run build` 命令，通过 `father build` 打包。
+- **代码质量**: `npm run lint` 自动修复 ESLint 和 Prettier 代码格式。
+- **清理**: `npm run clean` 清理缓存、构建产物和依赖。
+
+### 开发者依赖
+
+- **@types/sortablejs**
+  1.15.8：为 SortableJS 提供 TypeScript 类型定义，增强开发体验。
+
+## 安装与使用
+
+### 安装
+
+```bash
+npm install @zkj/vue3hooks
+```
+
+### 使用
+
+在 Vue 3 项目中，通过导入本库提供的钩子，如状态管理、路由钩子等，快速构建功能丰富的应用。
+
+## 环境要求
+
+- **Node.js**: 版本 >=16。
+
+## 结语
+
+**@zkj/vue3hooks** 为 Vue 3 应用开发者提供了强大的工具集，整合了 VueUse Core、Vue Router 等现代框架的核心功能，并加入实用工作区依赖，以提升开发效率，简化 Vue 3 应用的复杂逻辑处理。

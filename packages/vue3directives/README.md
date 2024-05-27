@@ -1,7 +1,39 @@
-# @zkj/vue3locale
+## @zkj/vue3directives 介绍
 
-🚀 The package offer vue3locale for @zkj!
+🚀 **@zkj/vue3directives** 是为 @zkj 生态定制的一套 Vue 3 指令集合，旨在丰富 Vue 3 应用的交互方式和 UI 功能，提高开发者的开发效率。此包提供了一系列预定义的自定义指令，可以直接在 Vue 3 应用中使用，无需从零编写逻辑。
 
-## Build
+### 包详情
 
-Use tsup to build and this package don't have `devDependencies`. See [ts-up#excluding-packages](https://tsup.egoist.dev/#excluding-packages)
+- **名称**: @zkj/vue3directives
+- **版本**: 0.1.0
+- **许可**: MIT
+- **入口点**:
+  - **主入口**: `./dist/index.js` 适用于 CommonJS 导入。
+  - **模块入口**: `./dist/index.mjs` 适用于 ES 模块导入。
+  - **类型定义**: `./dist/index.d.ts` 提供 TypeScript 类型支持。
+
+### 特性与依赖
+
+- **Vue.js**: 依赖于 Vue 3（版本 3.4.21），确保与最新 Vue 版本兼容。
+- **@zkj/utils** 和 **@zkj/vue3types**: 引用了工作区内的工具函数和 Vue 3 类型定义，加强了库的内部功能和类型安全性。
+- **Sass**: 作为开发时的依赖项（版本 1.72.0），虽然直接依赖未列出 Sass，但可能在间接依赖或构建过程中使用，以支持 CSS 预处理器功能。
+- **Remove**: 一个小型的 Node.js 工具库（版本 0.1.5），可能用于清理或文件操作。
+
+### 脚本与维护
+
+- **构建**: 通过 `npm run build` 使用 `father build` 命令编译源码。
+- **代码检查与格式化**: `npm run lint` 运行 ESLint 修复代码风格问题并使用 Prettier 格式化代码。
+- **清理**: 提供了清理缓存、构建产物和依赖的脚本，便于保持工作环境干净。
+
+### 环境要求
+
+- **Node.js**: 需要 Node.js 版本大于等于 16。
+
+### 使用场景
+
+- **自定义指令**: 开发者可以利用这些指令轻松实现如拖拽、懒加载、聚焦管理等常见前端交互效果。
+- **集成简单**: 通过简单的导入语法，即可在 Vue 组件中直接应用这些指令，无需复杂的配置。
+
+### 结论
+
+**@zkj/vue3directives** 是一个面向 Vue 3 应用开发者的实用工具包，它通过一系列精心设计的自定义指令，增强了 Vue 应用的互动性和开发便利性，是构建高效、现代化前端应用的得力助手。

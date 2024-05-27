@@ -1,7 +1,7 @@
 {
   "name": "@zkj/vue3locale",
   "version": "0.1.0",
-  "description": "🚀 The package offer vue3locale for @zkj!",
+  "description": "🚀 是为 @zkj 生态系统量身定制的 Vue 3 国际化(i18n)解决方案，旨在简化多语言应用的开发流程，提供一体化的国际化管理与支持，确保应用在全球范围内无缝切换语言环境。",
   "license": "MIT",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

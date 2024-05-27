@@ -1,7 +1,65 @@
 # @zkj/vue3locale
 
-🚀 The package offer vue3locale for @zkj!
+🚀 **@zkj/vue3locale** 是为 @zkj 生态系统量身定制的 Vue 3 国际化(i18n)解决方案，旨在简化多语言应用的开发流程，提供一体化的国际化管理与支持，确保应用在全球范围内无缝切换语言环境。
 
-## Build
+## 特性与依赖说明
 
-Use tsup to build and this package don't have `devDependencies`. See [ts-up#excluding-packages](https://tsup.egoist.dev/#excluding-packages)
+### 核心依赖
+
+#### Vue.js
+
+- **版本**: 3.4.21
+- **作用**: 作为核心框架，提供基础的组件化构建能力，支持 Vue 3 的最新特性和 Composition API。
+
+#### Vue-i18n
+
+- **版本**: 9.10.2
+- **作用**: 强大的 Vue.js 国际化插件，支持动态切换应用文本、日期和数字格式，以及轻松管理多语言资源。
+
+### 工作区依赖
+
+#### @zkj/constants
+
+- **作用**: 提供项目中使用的常量定义，有助于维护统一的国际化配置。
+
+#### @zkj/utils
+
+- **作用**: 实用工具函数集合，简化日常开发任务，可能包括字符串处理等与 i18n 相关的辅助方法。
+
+#### @zkj/vue3hooks
+
+- **作用**: Vue 3 的自定义 Hooks 库，可能包含与 i18n 状态管理相关的钩子，提升复用性和灵活性。
+
+#### @zkj/vue3store
+
+- **作用**: Vue 3 的状态管理库，用于集中管理应用状态，对于 i18n 来说，可以方便地存储当前语言环境等状态。
+
+#### @zkj/vue3types
+
+- **作用**: 提供 Vue 3 的类型定义，确保 i18n 相关代码的类型安全，提升开发体验。
+
+### 开发与维护
+
+- **构建**: 通过 `npm run build` 使用 `father build` 命好地打包项目。
+- **代码规范**: 使用 `npm run lint` 运行 ESLint 和 Prettier 自动修复代码格式问题。
+- **清理**: 通过 `npm run clean` 清理缓存、构建产物和依赖文件。
+
+## 安装与使用
+
+### 安装
+
+```bash
+npm install @zkj/vue3locale
+```
+
+### 配置置
+
+在你的 Vue 3 应用程序中，引入 Vue-i18n 并配置语言资源，结合 @zkj/vue3locale 提供的工具和策略，实现界面的国际化切换。
+
+## 环境要求
+
+- **Node.js**: 版本需 >=16。
+
+## 结语
+
+**@zkj/vue3locale** 不仅为 @zkj 生态的 Vue 3 应用带来了强大的 i18n 能力，还通过紧密集成工作区依赖，确保了生态内各组件间无缝协同，是构建全球化应用的理想选择。
